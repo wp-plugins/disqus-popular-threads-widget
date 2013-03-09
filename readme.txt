@@ -43,8 +43,9 @@ From your admin console, go to Appeareance > Widgets, drag the Disqus Popular Th
 
 = Parameters =
 
-Number of Days Back  - '1h', '6h', '12h', '1d', '3d', '7d', '30d', '90d'
-Number of Threads - # of posts to return
+1. Days Back  - '1h', '6h', '12h', '1d', '3d', '7d', '30d', '90d'
+
+2. Number of Threads - # of posts to return
 
 == Frequently Asked Questions ==
 
