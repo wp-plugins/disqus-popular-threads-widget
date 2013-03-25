@@ -4,17 +4,17 @@ Tags: disqus, popular posts, comments, most commented, most popular, popular thr
 Donate link: 
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Shows your most commented posts from Disqus via widget, shortcode, or template tag.
+Disqus Popular Threads Widget
 
 == Description ==
 
 Integrates with the Disqus API to show your most popular threads (most commented posts). Can be added via sidebar widget, template tag, or shortcode. 
 
-[__For more information or to request additional features, please visit the plugin page__](http://presshive.com/plugins/disqus-popular-threads-widget-for-wordpress/)
+[__For more information or to request additional features, please visit the plugin page__](http://presshive.com/)
 
 
 == Installation ==
@@ -25,7 +25,7 @@ Integrates with the Disqus API to show your most popular threads (most commented
 
 3. Visit the plugin admin page via Settings -> Disqus Settings
 
-4. You'll need to add your Disqus Public API Key, Forum ID (Disqus Site Shortname), and Domain Info. For information on obtaining your Disqus API Key, visit the [plugin homepage](http://presshive.com/plugins/disqus-popular-threads-widget-for-wordpress/). 
+4. You'll need to add your Disqus Public API Key, Forum ID, and Domain Info. For information on obtaining your Disqus API Key, visit the [plugin homepage](http://presshive.com/). 
 
 = To Display Disqus Popular Threads Via WordPress Widget = 
 
@@ -33,33 +33,36 @@ From your admin console, go to Appeareance > Widgets, drag the Disqus Popular Th
 
 = To Display Disqus Popular Threads Via Shortcode = 
 
-`[wdp_threads days_back = '7d' show_threads = 5 ]`
+`[disqus_threads days_back = '7d' show_threads = 5 ]`
 
 = To Display Disqus Popular Threads Via Template Tag = 
 
 <code>
-<?php wdp_get_threads( $days_back = '7d', $show_threads = 5, $echo = true ); ?>
+<?php diqus_get_threads( $days_back = '7d', $show_threads = 5, $echo = true ); ?>
 </code>
 
 = Parameters =
 
-1. Days Back  - '1h', '6h', '12h', '1d', '3d', '7d', '30d', '90d'
-
-2. Number of Threads - # of posts to return
+Number of Days Back  - '1h', '6h', '12h', '1d', '3d', '7d', '30d', '90d'
+Number of Threads - # of posts to return
 
 == Frequently Asked Questions ==
 
 = Where can I get more information about using Disqus Popular Threads Widget? =
 
-See the [plugin homepage](http://presshive.com/plugins/disqus-popular-threads-widget-for-wordpress/).
+See the [plugin homepage](http://presshive.com/).
 
 
 == Screenshots ==
 
-1. The Disqus Popular Threads Widget.
+1. The Disqus Popular Threads Widget settings panel.
 
 
 == Changelog ==
+
+= 1.1 =
+
+API was returning the slug in some cases. Checking for those cases.
 
 = 1.0 =
 
