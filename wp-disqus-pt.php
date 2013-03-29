@@ -3,7 +3,7 @@
  * Plugin Name: Disqus Popular Threads Widget
  * Plugin URI: http://presshive.com
  * Author: <a href="http://presshive.com/">Presshive</a>
- * Version: 1.1
+ * Version: 1.2
  * Description: Integrates with the Disqus API to show your most popular threads (most commented posts). Can be added via sidebar widget, template tag, or shortcode. 
  * Tags: disqus, popular posts, comments, most commented, most popular, popular threads, disqus most commented
  * License: GPLv2 or later
@@ -152,6 +152,8 @@ class Disqus_popular_threads_widget extends WP_Widget {
                 
 		if ( empty( $instance['days_back'] )  )
  			$days_back = '7d';
+		else
+                    	$days_back = $instance['days_back'];
 
 		$output .= $before_widget;
 		if ( $title )

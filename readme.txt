@@ -4,7 +4,7 @@ Tags: disqus, popular posts, comments, most commented, most popular, popular thr
 Donate link: 
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,10 @@ See the [plugin homepage](http://presshive.com/plugins/disqus-popular-threads-wi
 
 
 == Changelog ==
+
+= 1.1 =
+
+Addressed issue with the comment count not matching.
 
 = 1.1 =
 

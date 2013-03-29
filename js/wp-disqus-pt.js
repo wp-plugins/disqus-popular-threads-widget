@@ -94,7 +94,7 @@ DiscusMostPopularThreads = function (config) {
             if (cdata.postsInInterval > 1) {
               commentText = commentText + 's';
             }
-            comment_number_temp.innerHTML = cdata.postsInInterval + commentText; /* Javascript HTML entity decode hack */
+            comment_number_temp.innerHTML = cdata.posts + commentText; /* Javascript HTML entity decode hack */
             comment_number.appendChild(document.createTextNode(comment_number_temp.firstChild.nodeValue));
             comment_number.setAttribute('href', url);
             commentTxtComment.appendChild(comment_number);
