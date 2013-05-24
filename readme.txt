@@ -61,7 +61,7 @@ See the [plugin homepage](http://presshive.com/plugins/disqus-popular-threads-wi
 
 == Changelog ==
 
-= 1.1 =
+= 1.2 =
 
 Addressed issue with the comment count not matching.
 
